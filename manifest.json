@@ -2,9 +2,12 @@
   "manifest_version": 3,
   "name": "Agile Planner & Retro",
   "version": "1.0",
-  "description": "A sua sala de Planning Poker e Retrospectiva.",
+  "description": "A sua sala de Planning Poker e Retrospectiva a um clique.",
+  "permissions": ["sidePanel"],
+  "side_panel": {
+    "default_path": "index.html"
+  },
   "action": {
-    "default_popup": "index.html",
     "default_title": "Abrir Agile Planner"
   }
 }
